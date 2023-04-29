@@ -1,0 +1,29 @@
+* {
+    --text-color: black;
+}
+
+.pages-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.page-number {
+    list-style: none;
+    border: 1px solid;
+}
+
+.page-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+}
+
+.page-link:visited, .page-link:active {
+    color: var(--text-color)
+}
+
+.current {
+    background-color: lightgray;
+}

@@ -1,0 +1,29 @@
+.overlay {
+    display: flex;
+
+    background-color: silver;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+
+    background-color: rgba(0, 0, 0, 30%);
+
+    transition: background-color 0.8s;
+
+    .content {
+        width: fit-content;
+        height: fit-content;
+        z-index: 9999;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .overlay {
+        height: 100%;
+    }
+}

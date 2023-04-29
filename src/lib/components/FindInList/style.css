@@ -1,0 +1,29 @@
+.findinlist-container {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+.findinlist-container .label {
+    display: flex; 
+    align-items: center;
+    justify-content: right; 
+    gap: 4px; 
+    margin: 8px 8px 8px 16px;
+}
+
+.findinlist-container .line {
+    flex: 3;
+    height: 1px; 
+    background-color: #e8e8e8;
+    border: none;
+}
+
+.findinlist-container .search {
+    width: 40%;
+    flex: 3;
+}
+
+.findinlist-container .list {
+    width: 100%; 
+}

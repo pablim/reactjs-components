@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    width: 100%;
+    padding: 16px;
+
+    border-radius: 16px;
+    background-color: rgba(47, 79, 79, 0.6);
+
+    & div:first-child {
+        flex: 1;
+        
+        .list {
+            width: 100%;
+            height: 640px;
+
+            position: relative;
+
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+        }
+    }
+    
+    .lettersContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: 'space-between';
+        align-items: center;
+        
+        background-color: rgba(47, 79, 79, 0.6);
+        
+        border-radius: 16px;
+        
+        padding: 8px;
+      
+        .char {
+            text-align: center;
+            width: 100%;
+            height: calc(100%/26);
+            cursor: pointer;
+            color: white;
+            font-size: 11px;
+            position: relative;
+            display: inline-block;
+            
+            .letter, .letter:hover {
+                text-decoration: 'none';
+                color: #FFFFFF;
+                font-size: 16px;
+                text-decoration: none;
+            }
+
+            .tooltiptext {
+                width: 30px;
+                padding: 5px 0;
+                margin-left: 10px;
+
+                position: absolute;
+                top: -5px;
+                left: -55px;
+                z-index: 1;
+
+                visibility: hidden;
+                opacity: 0;
+                
+                border-radius: 16px;
+                background-color: #555;
+                color: #fff;
+
+                text-align: center;
+                
+                transition: opacity 0.3s;
+                
+                .tooltiptext:hover {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+

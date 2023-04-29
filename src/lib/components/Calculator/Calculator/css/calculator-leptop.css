@@ -1,0 +1,14 @@
+/* Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .calc-container {
+        height: 320px;
+        width: 273px;
+    
+        overflow: hidden;
+    
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+    }
+}

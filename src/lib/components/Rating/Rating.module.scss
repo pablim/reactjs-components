@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        width: fit-content;
+    }
+}
+
+.scoreText {
+    width: 28px;
+    height: 32px;
+
+    /* Atacadão/Header/MD/Regular */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    /* identical to box height, or 160% */
+    text-align: center;
+
+    /* Atacadão/Neutral/Neutral 500 */
+    color: #555555;
+}
+
+.stars {
+    width: 100%;
+    display: flex;
+}
+
+.disableStar {
+    cursor: default;
+}
+
+.star {
+    width: 10.45px;
+    height: 10px;
+}

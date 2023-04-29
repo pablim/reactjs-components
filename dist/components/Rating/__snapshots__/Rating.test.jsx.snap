@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating Component Atacadão Desktop renders rating 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="stars"
+    >
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Rating Component Atacadão Mobile renders text 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="stars"
+    >
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Rating Component Cotabest Desktop renders text 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="stars"
+    >
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Rating Component Cotabest Mobile renders text 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="stars"
+    >
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+      <a
+        class=" disableStar"
+        data-checked="false"
+        data-testid="star"
+        href="#"
+      >
+        <img
+          alt="Icon"
+          class="star"
+          src="Star.svg"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
