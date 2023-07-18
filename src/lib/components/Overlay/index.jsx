@@ -4,12 +4,12 @@ import { flexPositions } from '../../utils/displayFex'
 
 import styles from './Overlay.module.scss';
 
-export const Overlay = ({ 
-    visible, 
-    onClick, 
-    children, 
-    contentPosition, 
-    contentSize 
+const Overlay = ({ 
+	visible,
+	onClick,
+	children,
+	contentPosition,
+	contentSize
 }) => {
 	const [visibility, setVisibility] = useState(false);
 
@@ -25,44 +25,46 @@ export const Overlay = ({
 	return (
 		<div
 			className={`${visibility ? styles.overlay : ''}`}
-            style={flexPositions[contentPosition]}
+			style={flexPositions[contentPosition]}
 			onClick={(e) => onClickToLeave(e)}
 			data-testid='overlay'
 		>
-            {visibility && 
-                <div className={styles.content} 
-                    onClick={(e) => e.stopPropagation()}
-                >
-                    {children}
-                </div>
-            }
+			{visibility && 
+				<div className={styles.content} 
+					onClick={(e) => e.stopPropagation()}
+				>
+					{children}
+				</div>
+			}
 
-        </div>
+		</div>
 	);
 };
+
+export default Overlay
 
 Overlay.propTypes = {
 	visible: PropTypes.bool,
 	onClick: PropTypes.func,
 	children: PropTypes.element,
-    contentPosition: PropTypes.oneOf([
-        'left',
-        'leftTop',
-        'leftBottom',
-        'right',
-        'rightTop',
-        'rightBottom,',
-        'top',
-        'topLeft',
-        'topRight',
-        'bottom',
-        'bottomLeft',
-        'bottomRight',
-        'center',
-    ]), 
-    contentSize: PropTypes.string 
+	contentPosition: PropTypes.oneOf([
+		'left',
+		'leftTop',
+		'leftBottom',
+		'right',
+		'rightTop',
+		'rightBottom,',
+		'top',
+		'topLeft',
+		'topRight',
+		'bottom',
+		'bottomLeft',
+		'bottomRight',
+		'center',
+	]), 
+	contentSize: PropTypes.string 
 };
 
 Overlay.defaultProps = {
-    onClick: () => {}
+	onClick: () => {}
 }

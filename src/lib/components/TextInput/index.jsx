@@ -1,7 +1,9 @@
-import React from "react";
-import "./style.css";
+import React, { useState } from "react";
+import "./style.module.scss";
 
-const TextInput = ({ type = "text", label, value, onChange }) => (
+const TextInput = ({ type = "text", label, value, onChange }) => {
+  const [text, setText] = useState('');
+
   <div className="simple-form-group">
     {label && <label className="simple-text-label">{label}</label>}
     <input
@@ -11,6 +13,6 @@ const TextInput = ({ type = "text", label, value, onChange }) => (
       onChange={e => onChange && onChange(e.target.value)}
     />
   </div>
-);
+};
 
 export default TextInput;
