@@ -1,13 +1,19 @@
 {
-  "name": "reactjs-components",
+  "name": "@pablovaz/reactjs-components",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pablim/reactjs-components.git"
+    "url": "git+https://github.com/pablim/reactjs-components.git"
   },
-  "version": "0.1.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/pablim"
+  },
+  "version": "0.0.1",
   "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -19,17 +25,34 @@
     "bootstrap": "^5.2.3",
     "i18next": "^22.4.15",
     "i18next-browser-languagedetector": "^7.0.1",
-    "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
-    "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.9",
     "react-i18next": "^12.2.2",
     "react-live": "^4.0.0",
-    "react-router-dom": "^6.11.0",
     "react-scripts": "5.0.1",
     "sass": "^1.62.1",
     "web-vitals": "^2.1.4",
     "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@faker-js/faker": "^7.6.0",
+    "babel-loader": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -55,17 +78,15 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@babel/cli": "^7.21.0",
-    "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4",
-    "@babel/preset-react": "^7.18.6",
-    "@faker-js/faker": "^7.6.0",
-    "babel-loader": "^9.1.2",
-    "cross-env": "^7.0.3",
-    "html-webpack-plugin": "^5.5.1",
-    "webpack": "^5.81.0",
-    "webpack-cli": "^5.0.2",
-    "webpack-dev-server": "^4.13.3"
-  }
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "bugs": {
+    "url": "https://github.com/pablim/reactjs-components/issues"
+  },
+  "homepage": "https://github.com/pablim/reactjs-components#readme",
+  "keywords": [
+    "reactjs",
+    "components"
+  ],
+  "author": "Pablo Vaz",
+  "license": "ISC"
 }

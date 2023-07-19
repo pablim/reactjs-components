@@ -4,7 +4,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Overlay = void 0;
+exports.default = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
 var _displayFex = require("../../utils/displayFex");
@@ -49,7 +49,8 @@ var Overlay = function Overlay(_ref) {
     }
   }, children));
 };
-exports.Overlay = Overlay;
+var _default = Overlay;
+exports.default = _default;
 Overlay.propTypes = {
   visible: _propTypes.default.bool,
   onClick: _propTypes.default.func,

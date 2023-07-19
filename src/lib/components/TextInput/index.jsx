@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import PropTypes from 'prop-types';
+
 import "./style.module.scss";
 
 const TextInput = ({ type = "text", label, value, onChange }) => {
-  const [text, setText] = useState('');
+  const [name, setName] = useState('')
+  useEffect(() => {}, [])
 
-  <div className="simple-form-group">
+  return (<div className="simple-form-group">
     {label && <label className="simple-text-label">{label}</label>}
     <input
       type={type}
@@ -12,7 +15,7 @@ const TextInput = ({ type = "text", label, value, onChange }) => {
       value={value}
       onChange={e => onChange && onChange(e.target.value)}
     />
-  </div>
+  </div>)
 };
 
 export default TextInput;
